@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+* {
+    font-family: roboto;
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    display: flexbox;
+    justify-content: center;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.sketch-container {
+    display: flexbox;
+    justify-content: stretch;
+    flex-flow: row wrap;
+    width: 600px;
+    height: 600px;
+    border: .5em solid #d3d1d1;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+}
+
+
+.canvas {
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    justify-content: stretch;
+    flex-flow: column wrap ;
+}
+
+.square {
+    border: .01px solid gray;
+    background-color: rgb(255, 255, 255);
+    flex: 0 0 auto;
+    margin:0;
+    padding:0;
+}
